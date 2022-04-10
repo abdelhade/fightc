@@ -1,0 +1,248 @@
+body{
+	background-color: black;
+	height: 2000px;
+	position: relative;
+}
+BODY P{
+	color: WHITE;
+	position: absolute;
+	vertical-align: center;
+}
+.loader{
+	width: 100%;
+	height: 1200px;
+	margin-top: -1210px;
+	/*opacity: 0;*/
+	background-color: black;
+	position: fixed;
+	animation-name: land;
+	animation-duration: 18s;
+	animation-delay: .1s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-out;
+
+}
+@keyframes land{
+	0%{margin-top: -10px;}
+	90%{margin-top: -10px;}
+	100%{margin-top: -1210px;}
+}
+
+
+.welcome{
+	font-size: 20vw;
+	opacity: 0;
+	margin-left: 17%;
+	margin-top: 10%;
+	animation-name: fade;
+	animation-duration: 5s;
+	animation-delay: 1s;
+	animation-iteration-count: 1;
+}
+.myname{
+	font-size: 15vw;
+	opacity: 0;
+	margin-left: 7%;
+	margin-top: 10%;
+	animation-name: fade;
+	animation-duration: 5s;
+	animation-delay: 6s;
+	animation-iteration-count: 1;
+}
+.nar{
+	font-size: 15vw;
+	opacity: 0;
+	margin-left: 10%;
+	margin-top: 10%;
+	animation-name: fade;
+	animation-duration: 10s;
+	animation-delay: 11s;
+	animation-iteration-count: 1;
+}
+.tyler{
+	font-size: 10vw;
+	opacity: 0;
+	margin-left: 15%;
+	margin-top: 30%;
+	animation-name: shock;
+	animation-duration: .2s;
+	animation-delay: 13s;
+	animation-iteration-count: 1;
+	text-decoration: line-through;
+
+}
+.tyler2{
+	font-size: 3vw;
+	opacity: 0;
+	margin-left: 15%;
+	margin-top: 30%;
+	animation-name: shock;
+	animation-duration: .4s;
+	animation-delay: 12.95s;
+	animation-iteration-count: 1;}
+@keyframes fade{
+	0%{
+		opacity: 0;
+	}
+	10%{opacity: 1;}
+	80%{opacity: 1;}
+	100%{opacity: 0;}
+}
+@keyframes shock{
+	0%{opacity: 0;}
+	50%{opacity: 1;}
+	100%{opacity: 0;}
+}
+video{width: 95%;
+height: auto;}
+
+.divnar{
+	width: 100%;
+	height: 1200px;
+	background: url(../imgs/narrator.webp);
+	background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.divtyler{
+	width: 100%;
+	height: 700px;
+	background: url(../imgs/PORTRAIT1.jpg);
+	background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.divfighter{
+	width: 100%;
+	height: 700px;
+	background: url(../imgs/scars.jpg);
+	background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.divmrla{
+	width: 100%;
+	height: 700px;
+	background: url(../imgs/MARLA.jpg);
+	background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.divlove{
+	width: 100%;
+	height: 700px;
+	background: url(../imgs/girl.jpg);
+	background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.divrule{
+	width: 100%;
+	height: 700px;
+	background: url(../imgs/hisname1.jpg);
+	background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.divmid{
+	width: 100%;
+	height: 500px;
+	background: gold;}
+
+.divmid PRE{
+
+	color: black;
+	font-size: 3vw;
+	padding:0PX;
+	margin-top: 0;
+}
+
+pre{
+	color: WHITE;
+	font-size: 14.5vw;
+	padding-top: 150PX;
+	margin-top: 0;
+/*	box-shadow: 10px 10px 10px;
+*/}
+
+
+
+
+.stickynar{
+	width: 50%;
+	height: 50px;
+	background-color: white;
+	float: right;
+	position: sticky;
+	top: 0px;
+	color: black;
+	
+}
+.stickynar p,.stickydurden p,.stickyfighter p,.stickymarla p,.stickylove p,.stickyrule p{
+	padding: 0;
+	margin-left: 10%;
+	margin-top:5px;
+	font-size: 2.5VW;
+
+}
+
+.stickydurden{
+	width: 50%;
+	height: 50px;
+	background-color: yellow;
+	float: left;
+	position: sticky;
+	top: 0px;
+	color: black;
+}
+.stickyfighter{
+	width: 50%;
+	height: 50px;
+	background-color: orange;
+	float: right;
+	position: sticky;
+	top: 0px;
+	color: dodgerblue;
+}
+.stickymarla{
+	width: 50%;
+	height: 50px;
+	background-color: hotpink;
+	float: left;
+	position: sticky;
+	top: 0px;
+	color: brown;
+
+
+}
+.stickylove{
+	width: 50%;
+	height: 50px;
+	background-color: red;
+	float: right;
+	position: sticky;
+	top: 0px;
+	color: whitesmoke;
+}
+.stickyrule{
+	width: 50%;
+	height: 50px;
+	background-color: steelblue;
+	float: left;
+	position: sticky;
+	top: 0px;
+	color: whitesmoke;
+}
+.footer{
+	width: 100%;
+	height: 500px;
+	background-color: yellow;
+}
